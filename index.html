@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="utilisation d'une calculatrice basique">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>calculatrice</h1>
+
+        <!--Début calculatrice-->
+        <section class="calculatrice">
+            <!--Afficher résultat des opérations-->
+            <h2>Affichage résultat</h2>
+            <article class="resultat">
+                <input type="text" id="resultat" disabled aria-label="Résultat de la calculatrice">
+            </article>
+            <!--boutons des chiffres & opérateurs-->
+            <article class="boutons">
+                    <button type="button" id="pourcentage" aria-label="Pourcentage">%</button>
+                    <button type="button" class="effacer-der" aria-label="Effacer la dernière entrée">CE</button>
+                    <button type="button" class="effacer-tout" aria-label="Effacer tout">C</button>
+                    <button type="button" class="effacer" aria-label="Effacer l'affichage">Effacer</button>
+
+                    <button type="button" id="inverse" aria-label="Inverse">1/x</button>
+                    <button type="button" id="carre" aria-label="Carré">x²</button>
+                    <button type="button" id="racine-carree" aria-label="Racine carrée">²√x</button>
+                    <button type = "button" class="operator" aria-label="Division">/</button>
+
+                    <button type = "button" class="num" aria-label="7">7</button>
+                    <button type = "button" class="num" aria-label="8">8</button>
+                    <button type = "button" class="num" aria-label="9">9</button>
+                    <button type = "button" class="operator" aria-label="Multiplication">x</button>
+
+                    <button type = "button" class="num" aria-label="4">4</button>
+                    <button type = "button" class="num" aria-label="5">5</button>
+                    <button type = "button" class="num" aria-label="6">6</button>
+                    <button type = "button" class="operator" aria-label="Soustraction">-</button>
+
+                    <button type = "button" class="num" aria-label="1">1</button>
+                    <button type = "button" class="num" aria-label="2">2</button>
+                    <button type = "button" class="num" aria-label="3">3</button>
+                    <button type = "button" class="operator" aria-label="Addition">+</button>
+
+                    <button type="button" aria-label="Changer le signe">+/-</button>
+                    <button type = "button" class="num" aria-label="0">0</button>
+                    <button type="button" id="virgule" aria-label="Point décimal">.</button>
+                    <button type = "button" id="egal" aria-label="Calculer le résultat">=</button>
+            </article>
+        </section>
+    </main>
+    <script src="Js/app.js"></script>
+</body>
+</html>
